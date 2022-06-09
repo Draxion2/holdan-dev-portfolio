@@ -4,8 +4,8 @@ function Header() {
     return (
         <div>
             <header>
-                <div class="toolbar">
-                    <h1>Holdan <span class="logo">J</span> McMullen</h1>
+                <div className="toolbar">
+                    <h1>Holdan <span className="logo">J</span> McMullen</h1>
                     <nav>
                         <ul class="navlinks">
                             <li><a href="#top">Home</a></li>
@@ -16,7 +16,7 @@ function Header() {
                     </nav>
                 </div>
             </header>
-            <section id="top" class="main">
+            <section id="top" className="main">
                 <h2 id="main-title">A Full Stack Web Developer</h2>
             </section>
         </div>
