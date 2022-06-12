@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
-// import Portfoilo from './components/Portfolio';
+import Portfoilo from './components/Portfolio';
 // import Contact from './components/Contact';
 // import Footer from './components/Footer';
 
@@ -31,9 +31,9 @@ function App() {
           (currentCategory.name === "Home" ||
           currentCategory.name === "About") ?
             <About />
-          /*}: (currentCategory.name === "Portfolio") ?
+          : (currentCategory.name === "Portfolio") ?
             <Portfoilo />
-          : (currentCategory.name === "Contact Me") ?
+          /*: (currentCategory.name === "Contact Me") ?
         <Contact />*/
           :
           <About />
