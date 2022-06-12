@@ -175,8 +175,8 @@ nav {
   margin-right: 10px;
 }
 
-.navActive {
-  background: #fff;
+li.navActive {
+  background: #fff !important;
   color: #000;
 }
 
