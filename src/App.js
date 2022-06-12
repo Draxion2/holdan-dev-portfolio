@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfoilo from './components/Portfolio';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 // import Footer from './components/Footer';
 
 function App() {
@@ -32,8 +32,8 @@ function App() {
             <About />
           : (currentCategory.name === "Portfolio") ?
             <Portfoilo />
-          /*: (currentCategory.name === "Contact Me") ?
-        <Contact />*/
+          : (currentCategory.name === "Contact Me") ?
+            <Contact />
           :
           <About />
         }

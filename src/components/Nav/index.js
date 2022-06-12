@@ -21,11 +21,11 @@ function Nav(props) {
                     <ul className="navlinks">
                         {categories.map((category) => (
                             <li
-                            className={`cat ${currentCategory.name === category.name && !location && `navActive`}`}
+                            className={`cat ${currentCategory.name === category.name && location && `navActive`}`}
                             key={category.name}
                             onClick={() => {
                                 setCurrentCategory(category);
-                                setLocation(false);
+                                setLocation(true);
                             }}
                             title={category.desc}>
                                 {category.name}

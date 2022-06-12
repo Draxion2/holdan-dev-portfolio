@@ -175,6 +175,11 @@ nav {
   margin-right: 10px;
 }
 
+.navActive {
+  background: #fff;
+  color: #000;
+}
+
 nav .navlinks li {
   display: inline;
   font-family: lato-bold;
