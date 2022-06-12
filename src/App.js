@@ -7,10 +7,10 @@ import Portfoilo from './components/Portfolio';
 
 function App() {
   const [categories] = useState([
-    { name: "Home", desc: "Return Home"},
     { name: "About Me", desc: "About Holdan McMullen"},
     { name: "Portfolio", desc: "View all my works!"},
-    { name: "Contact Me", desc: "Send me a message"}
+    { name: "Contact Me", desc: "Send me a message"},
+    { name: "Resume", desc: "View Resume"}
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -28,8 +28,7 @@ function App() {
     />
       <div>
         {
-          (currentCategory.name === "Home" ||
-          currentCategory.name === "About") ?
+          (currentCategory.name === "About") ?
             <About />
           : (currentCategory.name === "Portfolio") ?
             <Portfoilo />
