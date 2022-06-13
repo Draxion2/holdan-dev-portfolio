@@ -29,6 +29,10 @@
   margin: 0;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-margin: -20px;
@@ -395,6 +399,8 @@ footer {
   background: var(--primary-color);
   border-top: 5px groove var(--primary-border-color);
   clear: both;
+  position: relative;
+  top: 10px;
 }
 
 #footer-home {

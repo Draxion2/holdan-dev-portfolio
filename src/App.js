@@ -4,7 +4,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfoilo from './components/Portfolio';
 import Contact from './components/Contact';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -39,6 +39,7 @@ function App() {
           <About />
         }
       </div>
+      <Footer />
     </div>
   );
 }
