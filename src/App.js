@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfoilo from './components/Portfolio';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
@@ -35,7 +36,9 @@ function App() {
             <Portfoilo />
           : (currentCategory.name === "Contact Me") ?
             <Contact />
-          :
+          : (currentCategory.name === "Resume") ?
+          <Resume />
+        :
           <About />
         }
       </div>

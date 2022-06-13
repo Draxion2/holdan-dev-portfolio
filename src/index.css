@@ -392,6 +392,13 @@ nav .navlinks li:hover {
 }
 /* contact end */
 
+/* resume start */
+#resume_download {
+  color: blue;
+}
+
+/* resume end */
+
 /* footer start */
 footer {
   height: 100px;

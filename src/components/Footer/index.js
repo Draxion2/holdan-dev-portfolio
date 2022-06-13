@@ -10,7 +10,7 @@ function Footer() {
                 <a href="https://github.com/Draxion2" target="_blank" title="GitHub">
                     GitHub
                 </a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/holdan-mcmullen-0754b9aa/" target="_blank" title="LinkedIn">
                     LinkedIn
                 </a>&nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="https://www.facebook.com/holdan.mcmullen" target="_blank" title="Facebook">
