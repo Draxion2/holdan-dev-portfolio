@@ -38,7 +38,7 @@ function loadApplications() {
         {
             title: "Taskinator",
             text: "HTML / CSS/ JavaScript",
-            image: "app04_pwGen.png",
+            image: "app06_taskinator.png",
             alt: "the taskinator javascript project",
             deployLink: "https://draxion2.github.io/taskinator/",
             githubLink: gitHub + "/taskinator/"

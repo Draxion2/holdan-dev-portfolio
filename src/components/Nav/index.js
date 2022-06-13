@@ -27,7 +27,8 @@ function Nav(props) {
                                 setCurrentCategory(category);
                                 setLocation(true);
                             }}
-                            title={category.desc}>
+                            title={category.desc}
+                            data-title={category.name}>
                                 {category.name}
                             </li>
                         ))}

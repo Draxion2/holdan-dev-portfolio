@@ -14,26 +14,27 @@ function Contact() {
             console.log(isValid);
             
             if (!isValid) {
-                setErrorMessage("Your email is invalid!");
+                setErrMessage("Your email is invalid!");
             } else {
-                setErrorMessage("");
+                setErrMessage("");
             }
 
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required`);
+                setErrMessage(`${e.target.name} is required`);
             } else {
-                setErrorMessage("");
+                setErrMessage("");
             }
         }
         
-        if (!errorMessage) {
+        if (!errMessage) {
             setFormState({...formState, [e.target.name]: e.target.value })
         }
     }
 
     function handleSubmit(e) {
         e.preventDefault();
+        console.log(formState);
     }
 
     return (
@@ -42,28 +43,31 @@ function Contact() {
             <div className="contact-display">
                 <h4 className="contact-title">Got any questions? Feel free to contact me directly!</h4>
                 <form onSubmit={handleSubmit}>
-                    <div>
-                        <label htmlFor="name">Name:</label>
+                    <div className='form-group'>
+                        <label className='font-weight-bold' htmlFor="name">Name:</label>
                         <input
                             type="text"
+                            className='form-control'
                             name="name"
                             defaultValue={name}
                             onBlur={handleChange}
                         />
                     </div>
-                    <div>
-                        <label htmlFor="email">Email address:</label>
+                    <div className='form-group'>
+                        <label className='font-weight-bold' htmlFor="email">Email address:</label>
                         <input
                             type="email"
+                            className='form-control'
                             name="email"
                             defaultValue={email}
                             onBlur={handleChange}
                         />
                     </div>
-                    <div>
-                        <label htmlFor="message">Message:</label>
+                    <div className='form-group'>
+                        <label className='font-weight-bold' htmlFor="message">Message:</label>
                         <textarea
                             name="message"
+                            className='form-control'
                             rows="5"
                             defaultValue={message}
                             onBlur={handleChange}
@@ -74,7 +78,7 @@ function Contact() {
                             </div>
                         )}
                     </div>
-                    <button type="submit">Submit</button>
+                    <button className='btn btn-primary mb-2 contact-me-btn' type="submit">Submit</button>
                 </form>
             </div>
         </section>
