@@ -333,7 +333,6 @@ nav .navlinks li:hover {
 
 .card:hover {
   transform: scale(1.10);
-  cursor: pointer;
 }
 
 .card-title {
@@ -348,11 +347,57 @@ nav .navlinks li:hover {
   font-size: 20px;
 }
 
-.card img {
+.cardImg {
+  display: block;
   width: 100%;
   height: 260px;
+  transition: .5s;
+  backface-visibility: hidden;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.cardImg:hover {
+  transition: .5s;
+}
+
+.middleContent {
+  transition: .5s;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .cardImg {
+  opacity: 0.3;
+}
+
+.card:hover .middleContent {
+  opacity: 1;
+}
+
+.middleContent a {
+  width: 100px;
+  padding: 10px 25px;
+  background-color: var(--primary-color);
+  color: var(--black);
+  transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  -webkit-transition: 300ms;
+}
+
+.middleContent a:hover {
+  background-color: var(--white);
+  color: var(--black);
+  transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  -webkit-transition: 300ms;
 }
 /* applications end */
 
