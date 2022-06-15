@@ -25,6 +25,8 @@ This app is already deployed to Github but these steps will instruct on how it c
 * Run `npm i` or `npm install` in the command line to install all needed packages.
 * Run `npm start` to run the React application as it should open in your default browser.
 
+[Deployment Link](https://draxion2.github.io/holdan-dev-portfolio/)
+
 ![alt text](https://i.gyazo.com/3308df009048ccff7d2765530a002f8c.jpg)
 
 ## Built With
