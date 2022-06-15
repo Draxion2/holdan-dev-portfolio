@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/holdan-dev-portfolio/static/css/main.bbeda4e0.css",
+    "main.js": "/holdan-dev-portfolio/static/js/main.be138faa.js",
+    "static/js/787.ac9b4e8b.chunk.js": "/holdan-dev-portfolio/static/js/787.ac9b4e8b.chunk.js",
+    "static/media/app19_helloThoughts.jpg": "/holdan-dev-portfolio/static/media/app19_helloThoughts.41915d8af413b5194611.jpg",
+    "static/media/app11_showPro.jpg": "/holdan-dev-portfolio/static/media/app11_showPro.9b2dc455328a4a089c78.jpg",
+    "static/media/app18_pizzaHunt.jpg": "/holdan-dev-portfolio/static/media/app18_pizzaHunt.4139b228feae023ae7f5.jpg",
+    "static/media/app17_budgetek.jpg": "/holdan-dev-portfolio/static/media/app17_budgetek.192da9b3cde3fc2caee5.jpg",
+    "static/media/app02_refactoring.jpg": "/holdan-dev-portfolio/static/media/app02_refactoring.cbeb903c0742f8035afa.jpg",
+    "static/media/app01_run_buddy.png": "/holdan-dev-portfolio/static/media/app01_run_buddy.45e5a41c96b58fb1e0c3.png",
+    "static/media/app09_gitItDone.png": "/holdan-dev-portfolio/static/media/app09_gitItDone.d35ee0f7c179599c4c86.png",
+    "static/media/app03_robot.jpg": "/holdan-dev-portfolio/static/media/app03_robot.4cb47703343cb70b2e30.jpg",
+    "static/media/app16_eCommerceBackend.png": "/holdan-dev-portfolio/static/media/app16_eCommerceBackend.ef2a9a9fda8f8e7801c2.png",
+    "static/media/app20_budgetWriter.png": "/holdan-dev-portfolio/static/media/app20_budgetWriter.9bbe75a9c6dad1c1c6e4.png",
+    "static/media/app13_teamGen.png": "/holdan-dev-portfolio/static/media/app13_teamGen.d365f317f873c5ea284d.png",
+    "static/media/app10_weatherApp.png": "/holdan-dev-portfolio/static/media/app10_weatherApp.0cd6e976e777f0f99f6c.png",
+    "static/media/header_bg.jpg": "/holdan-dev-portfolio/static/media/header_bg.bcc58fcb6545925f1404.jpg",
+    "static/media/app08_workHourly.png": "/holdan-dev-portfolio/static/media/app08_workHourly.c7c8f8e3e41f176ef877.png",
+    "static/media/app12_readmeGen.png": "/holdan-dev-portfolio/static/media/app12_readmeGen.241d261cf88b21db8737.png",
+    "static/media/Lato-Italic.ttf": "/holdan-dev-portfolio/static/media/Lato-Italic.a9f3ee269217f44df65f.ttf",
+    "static/media/Lato-Regular.ttf": "/holdan-dev-portfolio/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/app07_jsSpeedTest.png": "/holdan-dev-portfolio/static/media/app07_jsSpeedTest.63e2948d127f0e57be2a.png",
+    "static/media/app14_noteKeeper.png": "/holdan-dev-portfolio/static/media/app14_noteKeeper.e7ed4f7e38ef3ea921a7.png",
+    "static/media/Lato-Bold.ttf": "/holdan-dev-portfolio/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
+    "static/media/app15_employeeTracker.png": "/holdan-dev-portfolio/static/media/app15_employeeTracker.5cff5ea346e54d1500d4.png",
+    "static/media/holdan.jpg": "/holdan-dev-portfolio/static/media/holdan.fe5683fd594fdff4374e.jpg",
+    "static/media/my_resume.pdf": "/holdan-dev-portfolio/static/media/my_resume.ad927c8ac7c0b245acda.pdf",
+    "static/media/app06_taskinator.png": "/holdan-dev-portfolio/static/media/app06_taskinator.23fc8b9aa5703df87502.png",
+    "static/media/app04_pwGen.png": "/holdan-dev-portfolio/static/media/app04_pwGen.28f28f6277783d624dbb.png",
+    "index.html": "/holdan-dev-portfolio/index.html",
+    "main.bbeda4e0.css.map": "/holdan-dev-portfolio/static/css/main.bbeda4e0.css.map",
+    "main.be138faa.js.map": "/holdan-dev-portfolio/static/js/main.be138faa.js.map",
+    "787.ac9b4e8b.chunk.js.map": "/holdan-dev-portfolio/static/js/787.ac9b4e8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbeda4e0.css",
+    "static/js/main.be138faa.js"
+  ]
+}
