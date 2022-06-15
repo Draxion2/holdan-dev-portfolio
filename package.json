@@ -1,7 +1,11 @@
 {
   "name": "holdan-dev-portfolio",
   "version": "0.1.0",
+<<<<<<< HEAD
   "homepage": "https://draxion2.github.io/holdan-dev-portfolio/",
+=======
+  "homepage": "http://Draxion2.github.io/holdan-dev-portfolio",
+>>>>>>> develop
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -32,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
