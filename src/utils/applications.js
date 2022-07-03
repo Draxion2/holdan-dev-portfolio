@@ -158,7 +158,7 @@ function loadApplications() {
         {
             title: "Everywhere",
             text: "Collaborated SPA MERN Full-stack Project",
-            image: "app21_everywhere.png",
+            image: "app21_everywhere.jpg",
             alt: "the application of everywhere",
             deployLink: "https://stark-harbor-20365.herokuapp.com/",
             githubLink: "https://github.com/emilypape/everywhere/tree/develop"
